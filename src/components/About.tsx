@@ -102,17 +102,18 @@ const About = () => {
                 <div className="flex items-center">
                   <FileText className="mr-2" />
                   <div>
-                    <p className="font-semibold">Research Paper: AI-based Approach for Plastic Waste Classification</p>
-                    <p className="text-sm text-gray-500">International Journal of Engineering Research, 2023</p>
+                    <p className="font-semibold">Research Paper: Empowering Creators with a Blockchain-Based IP protection</p>
+                    <p className="text-sm text-gray-500">ICCIPC2025 IEEE Conference, Walchand College of Engineering, Sangli</p>
                   </div>
                 </div>
               </AccordionTrigger>
               <AccordionContent className="px-8 pb-4">
                 <p className="text-gray-600 dark:text-gray-400 mb-2">
-                  Published research on a novel approach to plastic waste classification using computer vision and deep learning techniques.
+                  Published research on blockchain technology applications for intellectual property protection.
                 </p>
                 <p className="text-gray-600 dark:text-gray-400">
-                  The paper explores the application of convolutional neural networks for identifying different types of plastic waste to improve recycling efficiency and environmental sustainability.
+                  The paper explores how blockchain can be utilized to secure and verify ownership of creative works,
+                  providing creators with reliable protection for their intellectual property.
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -123,7 +124,7 @@ const About = () => {
                   <GraduationCap className="mr-2" />
                   <div>
                     <p className="font-semibold">B.Tech in Artificial Intelligence and Machine Learning</p>
-                    <p className="text-sm text-gray-500">NRI Institute of Technology, 2020-2024</p>
+                    <p className="text-sm text-gray-500">NRI Institute of Technology, 2020-2024 (Currently in 4th Year)</p>
                   </div>
                 </div>
               </AccordionTrigger>
