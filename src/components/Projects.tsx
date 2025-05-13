@@ -4,6 +4,17 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { projects, categories } from "../data/projectsData";
+import { Link, Database, MapPin, FileText, Code, FileImage } from "lucide-react";
+
+// Map project titles to their respective icons
+const projectIcons: Record<string, React.ReactNode> = {
+  "Kode.ai": <Code className="h-5 w-5 mr-2" />,
+  "CodeKaro": <Code className="h-5 w-5 mr-2" />,
+  "Diabetes Prediction": <Database className="h-5 w-5 mr-2" />,
+  "TripMate": <MapPin className="h-5 w-5 mr-2" />,
+  "Resources-library": <FileText className="h-5 w-5 mr-2" />,
+  "PlasticWaste-Classification": <FileImage className="h-5 w-5 mr-2" />,
+};
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -24,7 +35,7 @@ const Projects = () => {
           <h2 className="text-3xl font-bold mb-2">My Projects</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-4"></div>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Check out some of my latest projects and work I've done for clients.
+            Check out some of my latest projects and technical work.
           </p>
         </div>
 
@@ -55,7 +66,10 @@ const Projects = () => {
                 />
               </div>
               <CardHeader>
-                <h3 className="text-xl font-semibold">{project.title}</h3>
+                <div className="flex items-center">
+                  {projectIcons[project.title] || <Link className="h-5 w-5 mr-2" />}
+                  <h3 className="text-xl font-semibold">{project.title}</h3>
+                </div>
                 <Badge>{project.category}</Badge>
               </CardHeader>
               <CardContent>
