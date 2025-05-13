@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
 import { Card, CardContent } from "@/components/ui/card";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -38,22 +39,22 @@ const Contact = () => {
 
   const contactInfo = [
     {
-      icon: "📧",
+      icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "contact@example.com",
-      link: "mailto:contact@example.com",
+      value: "nazeershaik9676@gmail.com",
+      link: "mailto:nazeershaik9676@gmail.com",
     },
     {
-      icon: "📱",
+      icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567",
+      value: "+91 7989646636",
+      link: "tel:+917989646636",
     },
     {
-      icon: "📍",
+      icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      value: "San Francisco, CA",
-      link: "https://maps.google.com/?q=San+Francisco,+CA",
+      value: "Remote, India",
+      link: "https://maps.google.com/?q=India",
     },
   ];
 
@@ -72,7 +73,7 @@ const Contact = () => {
           {contactInfo.map((info, index) => (
             <Card key={index}>
               <CardContent className="p-6 flex flex-col items-center text-center">
-                <span className="text-4xl mb-4" aria-hidden="true">{info.icon}</span>
+                <div className="text-primary mb-4">{info.icon}</div>
                 <h3 className="text-xl font-medium mb-2">{info.title}</h3>
                 <a
                   href={info.link}

@@ -4,18 +4,18 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Skills = () => {
   const technicalSkills = [
-    { name: "HTML/CSS", level: 95 },
-    { name: "JavaScript", level: 90 },
-    { name: "React", level: 85 },
-    { name: "TypeScript", level: 80 },
-    { name: "Node.js", level: 75 },
-    { name: "UI/UX Design", level: 85 },
+    { name: "Python", level: 90 },
+    { name: "JavaScript/TypeScript", level: 85 },
+    { name: "React/Node.js", level: 85 },
+    { name: "Machine Learning", level: 88 },
+    { name: "HTML/CSS", level: 90 },
+    { name: "Database Systems", level: 80 },
   ];
 
   const softSkills = [
-    { name: "Communication", icon: "📣" },
     { name: "Problem Solving", icon: "🧩" },
-    { name: "Teamwork", icon: "👥" },
+    { name: "Team Collaboration", icon: "👥" },
+    { name: "Communication", icon: "📣" },
     { name: "Time Management", icon: "⏱️" },
     { name: "Adaptability", icon: "🔄" },
     { name: "Leadership", icon: "🚀" },
@@ -49,7 +49,7 @@ const Skills = () => {
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold mb-6 text-center md:text-left">Soft Skills</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-center md:text-left">Professional Skills</h3>
             <div className="grid grid-cols-2 gap-4">
               {softSkills.map((skill) => (
                 <Card key={skill.name}>

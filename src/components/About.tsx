@@ -10,26 +10,27 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-2">About Me</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-4"></div>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Get to know me better - my background, experience, and what drives me.
+            Get to know more about my background, education, and what I do.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">My Story</h3>
+            <h3 className="text-2xl font-semibold">My Background</h3>
             <p className="text-gray-600 dark:text-gray-400">
-              With over 5 years of experience in web development, I've helped businesses of all sizes
-              establish their online presence. My journey in tech began when I built my first website
-              at 16, and I've been passionate about creating digital experiences ever since.
+              I'm an AI & Machine Learning Engineer with a strong background in web development.
+              Currently pursuing my B.Tech in Artificial Intelligence and Machine Learning at NRI Institute of Technology
+              with a CGPA of 8.5.
             </p>
             <p className="text-gray-600 dark:text-gray-400">
-              I specialize in front-end development with React, creating responsive designs,
-              and building user interfaces that are both beautiful and functional. I'm constantly
-              learning new technologies to stay at the cutting edge of web development.
+              I specialize in building intelligent applications that leverage machine learning, 
+              natural language processing, and web technologies. My passion lies in creating 
+              solutions that solve real-world problems and enhance user experiences.
             </p>
             <p className="text-gray-600 dark:text-gray-400">
-              When I'm not coding, you'll find me hiking, reading science fiction, or experimenting
-              with new recipes in the kitchen.
+              I've developed several projects including a diabetes prediction system, 
+              a smart travel planning application, and an AI-powered coding platform,
+              all aimed at making technology more accessible and beneficial.
             </p>
             <div className="pt-4">
               <Button>
@@ -41,26 +42,26 @@ const About = () => {
           <div className="grid grid-cols-2 gap-4">
             <Card>
               <CardContent className="p-6">
-                <div className="text-4xl font-bold text-primary mb-2">50+</div>
-                <p className="text-gray-600 dark:text-gray-400">Projects Completed</p>
+                <div className="text-4xl font-bold text-primary mb-2">3+</div>
+                <p className="text-gray-600 dark:text-gray-400">Major Projects</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
-                <div className="text-4xl font-bold text-primary mb-2">5+</div>
+                <div className="text-4xl font-bold text-primary mb-2">2+</div>
                 <p className="text-gray-600 dark:text-gray-400">Years Experience</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
-                <div className="text-4xl font-bold text-primary mb-2">30+</div>
-                <p className="text-gray-600 dark:text-gray-400">Happy Clients</p>
+                <div className="text-4xl font-bold text-primary mb-2">1</div>
+                <p className="text-gray-600 dark:text-gray-400">Published Paper</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
-                <div className="text-4xl font-bold text-primary mb-2">100%</div>
-                <p className="text-gray-600 dark:text-gray-400">Client Satisfaction</p>
+                <div className="text-4xl font-bold text-primary mb-2">6+</div>
+                <p className="text-gray-600 dark:text-gray-400">Certifications</p>
               </CardContent>
             </Card>
           </div>

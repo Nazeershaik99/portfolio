@@ -12,58 +12,49 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "E-commerce Website",
-    description: "A fully responsive e-commerce platform with cart functionality and payment integration.",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80",
+    title: "CodeKaro",
+    description: "A free AI-powered coding platform that assists users in learning programming across all levels from beginner to expert. Features intelligent code assistant, structured learning paths, and curated YouTube course links.",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80",
     category: "Web Development",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+    technologies: ["React", "Node.js", "AI APIs", "JavaScript"],
     link: "#"
   },
   {
     id: 2,
-    title: "Portfolio Dashboard",
-    description: "An analytics dashboard for financial portfolio management with real-time data visualization.",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
-    category: "Web Development",
-    technologies: ["React", "Chart.js", "Firebase", "Tailwind CSS"],
+    title: "Diabetes Prediction System",
+    description: "A machine learning-powered diabetes prediction system that delivers real-time health assessments through a user-friendly web interface. Utilizes trained ML models to analyze inputs and predict the likelihood of diabetes with high accuracy.",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80",
+    category: "AI/ML Application",
+    technologies: ["Python", "Machine Learning", "Streamlit", "Data Analysis"],
     link: "#"
   },
   {
     id: 3,
-    title: "Travel Blog",
-    description: "A blog platform for travel enthusiasts with location-based content and interactive maps.",
+    title: "TripMate",
+    description: "A smart travel planning application focused on low-budget tourism, guiding users through personalized and cost-effective trip experiences. Features secure login functionality and allows users to dynamically calculate trip budgets based on various factors.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80",
-    category: "Web Design",
-    technologies: ["WordPress", "PHP", "MySQL", "JavaScript"],
+    category: "Web Application",
+    technologies: ["React", "Express.js", "Node.js", "MongoDB"],
     link: "#"
   },
   {
     id: 4,
-    title: "Fitness App",
-    description: "Mobile-first fitness application with workout tracking and nutrition planning features.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80",
-    category: "Mobile App",
-    technologies: ["React Native", "Redux", "Firebase", "TypeScript"],
+    title: "AI Chatbot for Healthcare",
+    description: "Integrated a conversational AI chatbot to answer user questions and provide post-diagnosis guidance through natural language. Enables users to consult with health professionals after receiving reports.",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80",
+    category: "AI/ML Application",
+    technologies: ["NLP", "Python", "TensorFlow", "Healthcare API"],
     link: "#"
   },
   {
     id: 5,
-    title: "Restaurant Booking System",
-    description: "Online reservation system for restaurants with table management and customer notifications.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80",
-    category: "Web Development",
-    technologies: ["Vue.js", "Express", "PostgreSQL", "Socket.io"],
-    link: "#"
-  },
-  {
-    id: 6,
-    title: "Music Streaming Platform",
-    description: "Audio streaming service with playlist creation and social sharing capabilities.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80",
-    category: "Web Development",
-    technologies: ["React", "Node.js", "MongoDB", "AWS S3"],
+    title: "Blockchain-Based IP Protection",
+    description: "Published a paper on 'Empowering Creators with a Blockchain-Based IP Protection' at Walchand College of Engineering, Sangli in ICCIPC2023 IEEE Conference.",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
+    category: "Research",
+    technologies: ["Blockchain", "Smart Contracts", "Security", "Research"],
     link: "#"
   }
 ];
 
-export const categories = ["All", "Web Development", "Web Design", "Mobile App"];
+export const categories = ["All", "Web Development", "Web Application", "AI/ML Application", "Research"];
