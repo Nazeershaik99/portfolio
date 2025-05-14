@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 const Hero = () => {
   return <section id="hero" className="min-h-screen flex items-center pt-16 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
@@ -24,7 +23,7 @@ const Hero = () => {
           </div>
           <div className="w-full lg:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-primary shadow-xl">
-              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80" alt="Shaik Nazeer" className="w-full h-full object-cover" />
+              <img alt="Shaik Nazeer" className="w-full h-full object-cover" src="/lovable-uploads/959d919c-8ba5-4722-909a-ff396e2e9654.jpg" />
             </div>
           </div>
         </div>
