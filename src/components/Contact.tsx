@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -29,15 +28,15 @@ const Contact = () => {
     
     // Send email using EmailJS
     emailjs.send(
-      'service_kehkhgt', // Your EmailJS service ID
-      '__ejs-test-mail-service__', // Your EmailJS template ID
+      'service_kehkhgt', // Service ID
+      'template_default', // Updated to a generic template ID - replace with your actual template ID
       {
         from_name: formData.name,
         from_email: formData.email,
         subject: formData.subject,
         message: formData.message,
       },
-      'N8TE21_bItorUWTjZ' // Your EmailJS public key
+      'N8TE21_bItorUWTjZ' // Public key
     )
       .then(() => {
         toast({
