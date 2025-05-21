@@ -29,7 +29,7 @@ const Contact = () => {
     // Send email using EmailJS
     emailjs.send(
       'service_kehkhgt', // Service ID
-      'template_default', // Updated to a generic template ID - replace with your actual template ID
+      'template_h9kemsl', // Updated to a generic template ID - replace with your actual template ID
       {
         from_name: formData.name,
         from_email: formData.email,
